@@ -9,7 +9,7 @@ font-family: 'Bai Jamjuree', sans-serif;
 
 header{
 	display:flex;
-	font-family: 'Bai Jamjuree', sans-serif;
+	
 	justify-content:center;
 	align-items:center;
 	background-image: url("images/bg-header-desktop.png");
@@ -17,7 +17,7 @@ header{
 	background-size:cover;
 	height:500px;
 }
-.firstflex{
+.firstflex, .secondflex{
 	width:40%;
 	height:auto;
 	display:flex;
@@ -25,14 +25,21 @@ margin:auto;
 	align-items:center;
 	flex-direction:column;
 	position:relative;
-	top:-100px;
+	
 	text-align:center;
 	
 }
+
+.firstflex{
+top:-100px;}
+
 h1{
 	font-size:35px;
 	font-weight:600;
 }
+h2{
+	font-size:30px;
+font-weight:600;}
 p{
 	font-size:18px;
 	font-weight:400;
@@ -40,6 +47,12 @@ p{
 	line-height:1.5;
 	color: hsl(201, 11%, 66%);
 }
+h3{
+font-size:25px;
+margin-bottom:10px;
+
+}
+
 .buttons{
 	display:flex;
 	flex-direction:row;
@@ -80,3 +93,31 @@ button:last-child:hover{
 background-color:hsl(233, 100%, 79%);
 }
 
+.thirdflex{
+	display:flex;
+	flex-direction:row;
+	width:100%;
+	height:auto;
+	
+	margin-top:60px;
+	
+}
+
+.thirdflex div{
+	display:flex;
+	width:20%;
+	flex-direction:column;
+	height:100%;
+	margin-left:150px;
+	margin-top:150px;
+	
+}
+
+.thirdflex img{
+	width:50%;
+	margin-left:-40px;
+}
+
+.thirdflex p{
+	font-size:16px;
+}
