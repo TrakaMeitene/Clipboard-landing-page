@@ -184,8 +184,7 @@ width:10%;
 height:auto;
 }
 
-.logo img:nth-child(3), .logo img:last-child{
-height:35px;}
+
 
 footer{
 	display:flex;
