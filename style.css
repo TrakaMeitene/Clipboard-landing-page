@@ -32,7 +32,7 @@ margin:auto;
 }
 
 .firstflex{
-top:-100px;}
+top:-150px;}
 
 h1, h2, h3 {
 color: hsl(210, 10%, 33%);}
@@ -41,7 +41,7 @@ color: hsl(210, 10%, 33%);}
 
 h1{
 	
-	font-size:37px;
+	font-size:44px;
 	font-weight:600;
 }
 h2{
@@ -72,7 +72,7 @@ height:auto;
 
 }
 .buttons{
-	top:-80px;
+	top:-100px;
 }
 .buttons1{
 top:20px;}
