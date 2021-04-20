@@ -5,6 +5,7 @@ body{
 	margin:0;
 	padding:0;
 font-family: 'Bai Jamjuree', sans-serif;
+
 }
 
 header{
@@ -17,7 +18,7 @@ header{
 	background-size:cover;
 	height:500px;
 }
-.firstflex, .secondflex, .flex4, .flex5{
+.firstflex, .secondflex, .flex4{
 	width:40%;
 	height:auto;
 	display:flex;
@@ -59,17 +60,24 @@ margin-bottom:10px;
 
 }
 
-.buttons{
+.buttons, .buttons1{
 	display:flex;
 	flex-direction:row;
-	width:28%;
+	width:520px;
 	margin:auto;
 	justify-content:space-between;
 	position:relative;
-	top:-80px;
+	
 height:auto;
 
 }
+.buttons{
+	top:-80px;
+}
+.buttons1{
+top:20px;}
+
+
 
 button{
 	border:none;
@@ -133,3 +141,94 @@ margin-top:120px;}
 
 .flex4 img{
 margin-top:70px;}
+
+.flex6{
+	display:flex;
+	width:80%;
+	margin:auto;
+	flex-direction:row;
+
+}
+
+.flex6 div{
+	display:flex;
+	flex-direction:column;
+	width:35%;
+	line-height:2;
+	text-align:center;
+	align-items:center;
+	margin-top:50px;
+padding:20px;
+	
+	
+	
+}
+.flex6 img{
+	width:15%;
+}
+.flex6 div:last-child{
+margin-top:60px;}
+
+.logo{
+	display:flex;
+	flex-direction:row;
+	width:75%;
+	height:auto;
+	margin:auto;
+	justify-content:space-between;
+	margin-top:50px;
+	align-items:center;
+}
+.logo img{
+width:10%;
+height:auto;
+}
+
+.logo img:nth-child(3), .logo img:last-child{
+height:35px;}
+
+footer{
+	display:flex;
+	width:100%;
+	height:150px;
+	background-color:hsl(201, 11%, 96%);
+	margin:auto;
+	margin-top:150px;
+	flex-direction:row;
+}
+
+footer img{
+height:40%;
+top:30%;
+	position:relative;
+	left:200px;
+	
+}
+
+footer a {
+	text-decoration:none;
+	color: hsl(210, 10%, 33%);
+	padding:25px;
+	font-size:18px;
+margin-top:20px;
+	
+}
+footer li{
+	
+	 list-style-type:none;
+	 padding:10px;
+
+ }
+ 
+ footer ul{
+ margin-top:35px;}
+
+ .soc{
+	 width:40%;
+	
+	justify-content:flex-end;
+	display:flex;
+	  padding-right:300px;
+ }
+.soc a img{
+height:30%;}
