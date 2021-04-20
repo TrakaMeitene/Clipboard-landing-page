@@ -221,19 +221,41 @@ footer li{
  }
  
  footer ul{
- margin-top:35px;}
+ margin-top:35px;
+}
 
  .soc{
-	 width:40%;
+	
 	
 	justify-content:flex-end;
 	display:flex;
-	  padding-right:300px;
+	  
  }
 .soc a img{
 height:30%;}
 
-@media screen and (max-width:900px){
+footer div{
+	display:flex;
+	flex-direction:row;
+	margin-left:300px;
+height:150px;}
+
+
+
+@media screen and (min-width: 1200px) and (max-width:1500px){
+	
+	footer img{
+	left:100px;}
+
+	footer div{
+	margin-left:110px;}
+	
+	.thirdflex div {
+	margin-top:80px;}
+	
+}
+
+@media screen and (max-width:601px){
 	
 	
 	
@@ -261,8 +283,8 @@ height:30%;}
 	margin: 0px 10% 0px 10%;}
 	
 	.thirdflex div{
-		justify-content:center;
-	margin-left:0;
+		text-align:center;
+	margin-left:15%;
 	margin-top:20px;}
 	
 	.flex4 img{
@@ -308,7 +330,9 @@ h1{
 	text-align:center;
 	
 	}
-	
+	footer div{
+	flex-direction:column;
+	margin-left:0;}
 	footer img{
 		
 		position:initial;
@@ -327,8 +351,76 @@ h1{
 	text-align:center;}
 	
 	.soc{
+		flex-direction:row;
 	width:40%;
 	justify-content:space-between;
-	padding-right:0px;}
+	padding-right:0px;
+	margin-top:30px;}
 	
+
+.soc a img{
+height:20%;
+}
+}
+
+@media screen and (max-width: 900px) and (min-width: 601px){
+	.firstflex, .secondflex, .flex4{
+	width:60%;}
+	.thirdflex{
+	flex-direction:column;
+	width:100%;}
+	
+	.thirdflex img{
+		width:80%;
+	
+	margin: 0px 10% 0px 10%;
+	}
+	.thirdflex div{
+		width:80%;
+	text-align:center;
+	margin-left:10%;
+	margin-top:50px;}
+	
+	.flex4 img{
+	width:150%;}
+	
+	.logo img:nth-child(3), .logo img:last-child {
+	height:auto;}
+	
+	footer{
+	flex-direction:column;
+	height:auto;
+	align-items:center;
+	text-align:center;
+	
+	}
+	
+	footer img{
+		
+		position:initial;
+		margin-top:40px;
+		margin-bottom:20px;
+	}
+	footer ul{
+	margin-left:0;
+	margin-top:0;
+	padding-left:0;
+	margin-bottom:0;}
+	
+	footer a{
+		padding:0;
+	margin-top:10px;
+	text-align:center;}
+	
+	footer .soc{
+	width:40%;
+	justify-content:space-between;
+	flex-direction:row;
+	padding-right:0px;
+	margin-top:30px;}
+	
+	footer div{
+		flex-direction:column;
+		margin-left:0;
+	}
 }
