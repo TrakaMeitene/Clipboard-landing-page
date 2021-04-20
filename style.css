@@ -234,12 +234,18 @@ footer li{
 height:30%;}
 
 @media screen and (max-width:900px){
+	
+	
+	
 	header{
 	height:200px;}
 	.firstflex, .secondflex, .thirdflex, .thirdflex div, .flex4, .logo img{
 		
 		width:85%;
 	}
+	
+	.logo img{
+	width:70%;}
 	.firstflex{
 	top:0;}
 	
@@ -300,10 +306,11 @@ h1{
 	height:auto;
 	align-items:center;
 	text-align:center;
+	
 	}
 	
 	footer img{
-		width:20%;
+		
 		position:initial;
 		margin-top:40px;
 		margin-bottom:20px;
@@ -320,6 +327,8 @@ h1{
 	text-align:center;}
 	
 	.soc{
-	width:100%;}
+	width:40%;
+	justify-content:space-between;
+	padding-right:0px;}
 	
 }
